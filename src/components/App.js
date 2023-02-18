@@ -9,6 +9,7 @@ function App() {
 
   const handleButtonClick = () => {
     const textElement = document.getElementById('text');
+    textElement.innerHTML = "";
     textElement.innerHTML = name;
     // Instead of using document.getElementById, we can use the `name` state value to render the text
   };
